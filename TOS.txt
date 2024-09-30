@@ -1,0 +1,14 @@
+Termos de Serviço do Bot de Música Fluido de Freio
+
+1. Aceitação dos Termos Ao utilizar o bot de música Fluido de Freio, você concorda com os seguintes termos e condições. Se você não concorda com qualquer parte destes termos, não utilize o bot.
+
+2. Descrição do Serviço O Fluido de Freio é um bot de música que permite aos usuários reproduzir músicas em servidores de Discord. O bot não oferece outros serviços além da reprodução de músicas.
+
+3. Uso Aceitável
+
+O bot deve ser utilizado apenas para fins pessoais e não comerciais.
+É proibido utilizar o bot para reproduzir conteúdo protegido por direitos autorais sem a devida autorização.
+O uso do bot deve estar em conformidade com as políticas do Discord e com todas as leis aplicáveis.
+4. Limitação de Responsabilidade O Fluido de Freio é fornecido “como está” e “conforme disponível”. Não garantimos que o serviço será ininterrupto ou livre de erros. Não nos responsabilizamos por quaisquer danos diretos, indiretos, incidentais ou consequenciais decorrentes do uso do bot.
+
+5. Modificações nos Termos Reservamo-nos o direito de modificar estes termos a qualquer momento. As alterações serão publicadas e entrarão em vigor imediatamente após a publicação. O uso contínuo do bot após a publicação das alterações constitui aceitação dos novos termos.
