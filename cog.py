@@ -138,17 +138,9 @@ class MusicCog(commands.Cog):
         print(f"{self.bot.user} has connected to Discord!")
         # print("Available commands:", [cmd.name for cmd in self.bot.tree.get_commands()])
 
-    @commands.command(name="<easteregg>", help="macaco")
-    async def lipe(self, ctx):
-        await ctx.send("<mensagem do easteregg")
-
     @app_commands.command(name="ping")
-    async def ping(self, ctx):
-        await ctx.send("Pong!")
-
-    @app_commands.command(name="test")
-    async def test(self, interaction: discord.Interaction):
-        await interaction.response.send_message("Test command executed!")
+    async def ping(self, interaction):
+        await interaction.response.send_message(f'Pong! In {round(self.bot.latency * 1000)}ms', ephemeral=False)
 
     @app_commands.command(name="play", description="Plays a selected song from YouTube")
     async def play(self, interaction: discord.Interaction, *, query: str):
@@ -224,13 +216,12 @@ class MusicCog(commands.Cog):
             )
 
     @app_commands.command(
-        name="clear", description="Clears the queue and stops the bot"
+    name="clear", description="Clears the queue without stopping the current song"
     )
     async def clear(self, interaction: discord.Interaction):
-        """Clear the queue and stop the bot."""
-        if self.vc and self.vc.is_playing():
-            self.vc.stop()
-        self.music_queue.clear()  # Clear the queue
+        """Clear the queue without stopping the current song."""
+        self.music_queue.clear()  # Clear only the queue
+        print('Queue cleared')
         await interaction.response.send_message("Music queue cleared!", ephemeral=False)
 
     @app_commands.command(name="stop", description="Disconnects the bot from VC")
