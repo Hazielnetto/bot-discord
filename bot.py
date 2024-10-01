@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 MY_GUILD = discord.Object(id=os.environ['GUILD']) # Your Guild/Server ID
 TOKEN = os.environ['TOKEN']  # Always keep your token secure!
+# TOKEN = 'your token' # Use this if .env doesn't work
 APPLICATION_ID = os.environ['APP_ID'] # Your application ID
 
 # psutil used to run bot on REALTIME on windows - used if it stutters while playing music 
