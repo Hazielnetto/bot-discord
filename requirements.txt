@@ -1,0 +1,8 @@
+asyncio==3.4.3
+nest_asyncio==1.6.0
+discord.py==2.4.0
+ffmpeg==1.4
+python-dotenv==1.0.1
+youtube-search-python==1.6.6 
+yt-dlp~=2024.9.27
+pstuil==6.0.0 
