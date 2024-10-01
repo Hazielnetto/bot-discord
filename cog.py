@@ -138,9 +138,9 @@ class MusicCog(commands.Cog):
         print(f"{self.bot.user} has connected to Discord!")
         # print("Available commands:", [cmd.name for cmd in self.bot.tree.get_commands()])
 
-    @commands.command(name="lipe", help="macaco")
+    @commands.command(name="<easteregg>", help="macaco")
     async def lipe(self, ctx):
-        await ctx.send("macaco")
+        await ctx.send("<mensagem do easteregg")
 
     @app_commands.command(name="ping")
     async def ping(self, ctx):
