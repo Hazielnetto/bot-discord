@@ -15,7 +15,7 @@ Feel free to use or implement it.
 
 ## Como instalar
 
-Versão do python utilizada: 3.10
+Versão do python utilizada: [3.10.0](https://www.python.org/downloads/release/python-3100/)
 
 ### Configurando o ambiente virtual
 Fonte: https://dev.to/franciscojdsjr/guia-completo-para-usar-o-virtual-environment-venv-no-python-57bo
