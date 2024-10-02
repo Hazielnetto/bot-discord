@@ -1,7 +1,7 @@
 
 # bot-discord
 #### PT
-Bot de musica para o discord que eu desenvolvi com auxilio de inteligência artificical.\
+Bot de musica para o discord que eu desenvolvi com auxilio de inteligência artificial.\
 Sinta-se livre para utilizar ou implementá-lo.
 
 #### EN
