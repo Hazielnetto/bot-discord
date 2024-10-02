@@ -53,7 +53,7 @@ class MusicCog(commands.Cog):
             return {
                 "source": item,
                 "title": info["title"],
-                "duration": info["duration"],
+                "duration": "duration": f"{info['duration'] // 60}:{info['duration'] % 60:02d}",
                 "thumb": img_url,
             }
 
