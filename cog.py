@@ -21,7 +21,7 @@ class MusicCog(commands.Cog):
 
         # YDL and FFMPEG options
         self.YDL_OPTIONS = {
-            "format": "251/140/ba",
+            "format": "ba",
             "prefer_ffmpeg": True,
             "outtmpl": "temp/%(title)s.%(ext)s",
         }
@@ -53,7 +53,7 @@ class MusicCog(commands.Cog):
             return {
                 "source": item,
                 "title": info["title"],
-                "duration": "duration": f"{info['duration'] // 60}:{info['duration'] % 60:02d}",
+                "duration": f"{info['duration'] // 60}:{info['duration'] % 60:02d}",
                 "thumb": img_url,
             }
 
