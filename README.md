@@ -47,11 +47,6 @@ No macOS e Linux:
 
 Você verá o nome do ambiente virtual atual no prompt do terminal, indicando que o ambiente foi ativado com sucesso.
 
-### Como Desativar um Ambiente Virtual
-Para desativar um ambiente virtual e retornar ao ambiente global do Python, basta digitar:
-
-``> deactivate``
-
 ### Como Instalar Pacotes em um Ambiente Virtual
 Com o ambiente virtual ativado, você pode instalar pacotes e bibliotecas específicos para o seu projeto sem afetar o ambiente global do Python. Use o comando pip para instalar pacotes:
 
@@ -79,9 +74,13 @@ Vamos criar um ambiente virtual para o bot
 ``> pip install -r .\requirements.txt``
 
 #### Iniciando o bot
+# Lembre-se de sempre ativar o ambiente virtual (`.\bot-discord\Scripts\activate`) antes de rodar o bot.
 `> python bot.py`
 
-Lembre-se de sempre ativar o ambiente virtual (`.\bot-discord\Scripts\activate`) antes de rodar o bot.
+### Como Desativar um Ambiente Virtual
+Para desativar um ambiente virtual e retornar ao ambiente global do Python, basta digitar:
+
+``> deactivate``
 
 Você também pode rodar o bot diretamente, utilizando:\
 `> <diretório do bot>\.bot\Scripts\python.exe "<diretório do bot>\bot-discord\bot.py"`
