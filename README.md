@@ -74,7 +74,7 @@ Vamos criar um ambiente virtual para o bot
 ``> pip install -r .\requirements.txt``
 
 #### Iniciando o bot
-# Lembre-se de sempre ativar o ambiente virtual (`.\bot-discord\Scripts\activate`) antes de rodar o bot.
+##### Lembre-se de sempre ativar o ambiente virtual (`.\bot-discord\Scripts\activate`) antes de rodar o bot.
 `> python bot.py`
 
 ### Como Desativar um Ambiente Virtual
